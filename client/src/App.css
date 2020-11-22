@@ -1,0 +1,390 @@
+/* Home Page */
+
+.menu {
+	font-family:"Times New Roman";
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  background-color:black ;
+  opacity: 70%;
+  width: 100%;
+  
+}
+
+.menuchild{
+	display:inline;
+	padding: 10px 14px;
+	color:white;
+	font-size: 30px;
+	cursor: pointer;
+	font-family:"Times New Roman";
+}
+
+a:link , a:active , a:visited{
+	color:white;
+	text-decoration:none;
+	font-family:"Times New Roman";
+}
+.menuchild:hover {
+	background-color:#877A9B;
+}
+
+.home_intro{
+	display:flex;
+	justify-content:center;
+	padding: 250px;
+	font-size:40px;
+	color:white;
+	font-style:italic;
+	font-weight:bold;
+}
+
+.background{
+  background: url(https://images.unsplash.com/photo-1500021804447-2ca2eaaaabeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=8) no-repeat center center fixed; 
+  overflow: hidden;
+  background-size: cover;
+  font-family:"Times New Roman";
+  height: 100vh;
+}
+
+/* Sign In */
+.container{
+	display:flex;
+	justify-content:center;
+	height: 75%;
+	width:100vw;
+	/*background: url(https://images.unsplash.com/photo-1500021804447-2ca2eaaaabeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) no-repeat center center fixed;*/
+	font-family:"Times New Roman";
+  /*background-image:linear-gradient(to right,#48C9B0,#85C1E9);*/
+  background-size: cover;
+}
+
+.mycard{
+	height:300px;
+	width:400px;
+	margin:auto;
+	text-align:center;
+	background-color:black;
+	opacity: 70%;
+	color: white;
+	/*border: 2px solid #A3E4D7;
+	border-radius: 5px;
+	box-shadow: 10px 10px 5px 0px #BDC3C7 ;*/
+	font-family:"Times New Roman";
+}
+.intro{
+	margin-left: 780px;
+}
+
+.btn{
+	padding: 5px;
+	border:2px solid white;
+	border-radius:5px;
+	cursor: pointer;
+	font-family:"Times New Roman";
+}
+
+.btn:hover{
+	box-shadow: 4px 4px 2px 0px gray;
+}
+.signintext{
+	font-size:20px;
+	color:white;
+	font-family:"Times New Roman";
+	margin-top:30px
+}
+
+/* Profile Page */
+.profilecontainer{
+	display:flex;
+	flex-direction:row;
+	height:100vh;
+	width:100vw;
+	font-family:"Times New Roman";
+}
+
+.pic{
+	display:flex;
+	justify-content:center;
+	width:25%;
+	background-color: black;
+	opacity: 70%;
+	font-family:"Times New Roman";
+	height:100%
+}
+
+.placeholder{
+	height:210px;
+	width:210px;
+	margin:auto;
+	font-family:"Times New Roman";
+}
+img{
+	height:200px;
+	width:200px;
+	border: 2px solid white;
+	border-radius: 100px;
+}
+.info{
+	display:flex;
+	justify-content:center;
+}
+
+.infocard{
+	height:400px;
+	width:600px;
+	margin-left: 200px;
+	margin-top: 80px;
+	background-color:black;
+	opacity: 70%;
+}
+
+.infolist{
+	list-style-type:none;
+	text-align:left;
+	color:white;
+	font-size:20px;
+}
+
+.infochild{
+	margin-bottom:21px;
+}
+.name{
+	font-size: 45px;
+}
+.logout-btn{
+	color:white;
+	background:transparent;
+	font-size: 28px;
+	border: none;
+	cursor: pointer;
+	font-family:"Times New Roman";
+}
+/*.logout-btn:hover{
+	background-color:#877A9B;
+	cursor: pointer;
+}*/
+/*Leave Stats*/
+.leavecontainer{
+	display:flex;
+	flex-direction:row;
+	width:100vw;
+	font-family:"Times New Roman";
+}
+.leavestatuses{
+	display: flex;
+	width: 55%;
+	flex-direction: column;
+	margin-right:20px;
+	margin-top: 10px;
+}
+.leavestats{
+	text-align: center;
+	width: 85%;
+	margin-left: 170px;
+	background-color:black;
+	opacity: 70%;
+	color:white;
+}
+.leavestats table{
+	margin:0px auto;
+	font-size: 18px;
+}
+.leavestats td,th{
+	padding: 0px 35px;
+}
+
+
+.leaveapply{
+	display:flex;
+	width: 25%;
+	height: 100vh;
+	justify-content:center;
+}
+
+.leavehist{
+	margin-top: 10px;
+	text-align: center;
+	width: 85%;
+	margin-left: 170px;
+	background-color:black;
+	opacity: 70%;
+	color:white;
+	height: 250px;
+}
+
+.leavehist table{
+	width: 80%;
+	font-size:18x;
+	height: 150px;
+	overflow-y:scroll;
+	display: block;
+	margin:0px auto;
+}
+
+.leavehist td,th{
+	padding: 0px 35px;
+}
+
+
+/* Leave Apply Part*/
+.leaveapplycard{
+	height: 100%;
+	width: 100%;
+	background-color:black;
+	opacity: 70%;
+	color: white;
+}
+.applyleavebtn{
+	cursor: pointer;
+}
+.leaveapplycard form{
+	text-align: center;
+	padding-top: 75px;
+}
+
+.leaveapplycard form button {
+	height:20px;
+	border:1px solid grey;
+	
+	border-radius: 7px;
+	box-shadow: -5px 3px 8px 3px #797D7F;
+}
+
+
+
+/*Nootifications*/
+.notifycontainer{
+	display:flex;
+	flex-direction:column;
+	width:100vw;
+	height: 100vh;
+}
+
+.notifycontainer div h2 {
+	text-align:center;
+}
+
+.mynotify, .pending{
+	list-style-type:none;
+	max-height: 200px;
+	display: block;
+	overflow-y: scroll;
+	margin-top: -10px;
+}
+
+.pending li , .mynotify li{
+	display:flex;
+	flex-direction : row;
+	background-color:black;
+	opacity: 80%;
+	width:100%;
+	padding-top:12px;
+	padding-bottom:12px;
+	font-size: 20px;
+	color:white;
+}
+
+.pending li:nth-child(even) , .mynotify li:nth-child(even){
+	
+	background-color:black;
+	opacity: 60%;
+	color: white;
+}
+
+.pending li div{
+	width:200px;
+	padding-left:30px;
+}
+.mynotify li div{
+	width: 400px;
+	padding-left:30px;
+	
+}
+
+.acceptbtn , .rejectbtn {
+	opacity: 80%;
+	cursor: pointer;
+}
+
+/*Remark Area
+span {
+	height:50vh;
+	width:500px;
+	left:370px;
+	top:150px;
+	position:fixed;
+	z-index:1;
+	background-color: lightgray;
+	opacity: 100%;
+	text-align:center;
+}
+
+
+.remarktext{
+	margin: auto;
+	padding-top: 100px;
+	color: black;
+	font-size:30px;
+}
+
+.remarkbtn{
+	margin-left:180px;
+	margin-top:100px;
+	font-size:30px;
+	color:white;
+	background-color:black;
+}
+*/
+.tooltip_text{
+	visibility: hidden;
+  width: 120px;
+  background-color:white;
+  color:black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltip_text {
+	visibility: visible;
+  }
+
+/* Footer */
+.footer{
+	display: flex;
+	position: fixed;
+	flex-direction: row;
+	background-color: black;
+	opacity: 70%;
+	min-width:100%;
+	min-height: 200px;
+	color: white;
+}
+
+.about, .others{
+	width: 30%;
+	text-align: center;
+	font-size: 15px;
+	padding-left: 30px;
+}
+.about div, .others div{
+	text-align: center;
+}
+.footer_xyz{
+	font-size:24px;
+}
+.footer_rights{
+	padding-top: 5px;
+	font-size: 10px;
+}
+.others{
+	margin-left:830px;
+}
+.logo{
+	width: 25px;
+	height: 15px;
+}
